@@ -11,7 +11,7 @@
     "href": "chapters/intro.html",
     "title": "1  Einführung",
     "section": "",
-    "text": "Wir können auch Packages zitieren Wickham u. a. (2019).\n\n\n\n\nWickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, u. a. 2019. „Welcome to the tidyverse“. Journal of Open Source Software 4 (43): 1686. https://doi.org/10.21105/joss.01686."
+    "text": "Wir können auch Packages zitieren, Wickham u. a. (2019).\n\n2 Übungen\nhaben ihren eingenen Titel oder Untertitel.\nLösungen können wir in einem callout-block geben:\n\n\n\n\n\n\nHinweis\n\n\n\nNote that there are five types of callouts, including: `note`, `warning`, `important`, `tip`, and `caution`.\n\n\n\n\n\n\n\n\nTip With Caption\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use `collapse=“true”` to collapse it by default or `collapse=“false”` to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\nWickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, u. a. 2019. „Welcome to the tidyverse“. Journal of Open Source Software 4 (43): 1686. https://doi.org/10.21105/joss.01686."
   },
   {
     "objectID": "chapters/teil2.html",
@@ -30,7 +30,7 @@
   {
     "objectID": "chapters/references.html",
     "href": "chapters/references.html",
-    "title": "References",
+    "title": "Literatur",
     "section": "",
     "text": "Bates, Douglas M. 2010. Lme4: Mixed-Effects Modeling\nwith R. Unpublished.\n\n\nWickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy\nD’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.\n“Welcome to the tidyverse.”\nJournal of Open Source Software 4 (43): 1686. https://doi.org/10.21105/joss.01686."
   }
