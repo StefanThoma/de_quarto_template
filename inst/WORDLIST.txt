@@ -1,0 +1,8 @@
+
+.unnumbered
+bates
+Packages
+Quarto
+References
+refs
+tidyverse

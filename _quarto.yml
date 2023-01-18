@@ -1,0 +1,40 @@
+project:
+  type: book
+  execute-dir: project
+  output-dir: docs
+
+lang: de 
+execute: 
+  freeze: auto
+  
+book:
+  title: "Buch Template"
+  author: 
+    - Jane Doe
+    - Who Else
+  
+  favicon: images/favicon.ico
+  date: today
+  date-format: short
+  chapters:
+    - index.qmd
+    - part: "Teil 1"
+      chapters:
+        - chapters/intro.qmd
+    - part: chapters/teil2.qmd
+      chapters:
+        - chapters/summary.qmd
+    - chapters/references.qmd
+  downloads: pdf
+  image: "images/frontimage.png"  
+
+
+bibliography: ["bib/packages.bib", "bib/project.bib"]
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+editor: visual
