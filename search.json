@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Buch Template",
+    "section": "",
+    "text": "Vorwort\nWir können Papers zitieren Bates (2010).\n\n\n\n\nBates, Douglas M. 2010. Lme4: Mixed-Effects Modeling with R. Unpublished."
+  },
+  {
+    "objectID": "chapters/intro.html",
+    "href": "chapters/intro.html",
+    "title": "1  Einführung",
+    "section": "",
+    "text": "Wir können auch Packages zitieren Wickham u. a. (2019).\n\n\n\n\nWickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, u. a. 2019. „Welcome to the tidyverse“. Journal of Open Source Software 4 (43): 1686. https://doi.org/10.21105/joss.01686."
+  },
+  {
+    "objectID": "chapters/teil2.html",
+    "href": "chapters/teil2.html",
+    "title": "Teil 2",
+    "section": "",
+    "text": "Wir können auch Quarto Files als Überkapitel nutzen."
+  },
+  {
+    "objectID": "chapters/summary.html",
+    "href": "chapters/summary.html",
+    "title": "2  Zusammenfassung",
+    "section": "",
+    "text": "Wer weiss was?\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "chapters/references.html",
+    "href": "chapters/references.html",
+    "title": "References",
+    "section": "",
+    "text": "Bates, Douglas M. 2010. Lme4: Mixed-Effects Modeling\nwith R. Unpublished.\n\n\nWickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy\nD’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.\n“Welcome to the tidyverse.”\nJournal of Open Source Software 4 (43): 1686. https://doi.org/10.21105/joss.01686."
+  }
+]
