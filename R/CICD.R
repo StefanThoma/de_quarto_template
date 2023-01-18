@@ -1,4 +1,4 @@
-# spell-check
+#-------------------------- spell-check ----------------------------------------
 
 # create empty wordlist:
 # write("", file =   "inst/WORDLIST.txt")
@@ -23,7 +23,7 @@ spelling::spell_check_files(list.files(pattern = ".*.qmd$", recursive = TRUE),
   lang = "inst/de_CH_frami.dic"
 )
 
-# style-check
+#-------------------------- style-check ----------------------------------------
 
 # this is what happens in CICD:
 styler::style_dir(dry = "fail")

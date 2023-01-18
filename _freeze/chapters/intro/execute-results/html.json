@@ -1,0 +1,16 @@
+{
+  "hash": "f3335b93a055e24a5a6a5bd2c3996f77",
+  "result": {
+    "markdown": "# Einführung\n\nWir können auch Packages zitieren, zum Beispiel: @tidyverse2019.\n\n# Übungen\n\nHaben ihren eigenen Titel oder Untertitel.\n\nLösungen können wir in einem callout-block geben:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.0      ✔ purrr   1.0.1 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.5.0 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n```\n:::\n:::\n\n\n# Übungen\n\nHaben ihren eigenen Titel oder Untertitel.\n\nLösungen können wir in einem callout-block geben:\n\n::: callout-note\n## Vertiefung\n\nSo sehen Vertiefungen aus.\n\n$$\\alpha = 0.05$$\n:::\n\n::: {.callout-tip collapse=\"true\"}\n## Lösung\n\nSo werden Lösungen dargestellt.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrnorm(100) %>%\n  plot()\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n:::\n\n::: callout-caution\n## Hinweise & Warnungen\n\nSo werden Hinweise dargestellt.\n:::\n\n::: callout-important\n## Wichtig\n\nDas ist wichtig!\n:::\n\n\n::: {.cell}\n\n```{.r .cell-code}\nknitr::write_bib(c(.packages(), \"bookdown\"), \"bib/packages.bib\")\n```\n:::\n",
+    "supporting": [
+      "intro_files/figure-html"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
