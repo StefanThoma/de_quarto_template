@@ -37,4 +37,4 @@ format:
     css: styles.css
   pdf:
     documentclass: scrreprt
-editor: visual
+editor: source

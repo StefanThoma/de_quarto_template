@@ -1,26 +1,50 @@
 # Einführung
 
-Wir können auch Packages zitieren, @tidyverse2019.
+Wir können auch Packages zitieren, zum Beispiel: @tidyverse2019.
 
 # Übungen
 
-haben ihren eingenen Titel oder Untertitel.
+Haben ihren eigenen Titel oder Untertitel.
 
 Lösungen können wir in einem callout-block geben:
 
-::: {.callout-note}
-Note that there are five types of callouts, including:
-**\`note\`**, **\`warning\`**, **\`important\`**, **\`tip\`**, and **\`caution\`**.
+```{r}
+library(tidyverse)
+```
+
+# Übungen
+
+Haben ihren eigenen Titel oder Untertitel.
+
+Lösungen können wir in einem callout-block geben:
+
+::: callout-note
+## Vertiefung
+
+So sehen Vertiefungen aus.
+
+$$\alpha = 0.05$$
 :::
 
-::: {.callout-tip}
-## Tip With Caption
+::: {.callout-tip collapse="true"}
+## Lösung
 
-This is an example of a callout with a caption.
+So werden Lösungen dargestellt.
+
+```{r}
+rnorm(100) %>%
+  plot()
+```
 :::
 
-::: {.callout-caution collapse="true" icon="false}
-## Expand To Learn About Collapse
+::: callout-caution
+## Hinweise & Warnungen
 
-This is an example of a 'folded' caution callout that can be expanded by the user. You can use **\`collapse="true"\`** to collapse it by default or **\`collapse="false"\`** to make a collapsible callout that is expanded by default.
+So werden Hinweise dargestellt.
+:::
+
+::: callout-important
+## Wichtig
+
+Das ist wichtig!
 :::

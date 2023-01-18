@@ -6,3 +6,13 @@ Quarto
 References
 refs
 tidyverse
+.callout-tip
+callout-block
+callout-caution
+callout-important
+callout-note
+collapse
+library
+plot
+rnorm
+true
