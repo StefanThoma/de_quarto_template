@@ -33,6 +33,3 @@ styler::style_dir()
 
 # now it should work:
 styler::style_dir(dry = "fail")
-
-
-
