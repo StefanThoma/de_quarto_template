@@ -48,3 +48,7 @@ So werden Hinweise dargestellt.
 
 Das ist wichtig!
 :::
+
+```{r}
+knitr::write_bib(c(.packages(), "bookdown"), "bib/packages.bib")
+```

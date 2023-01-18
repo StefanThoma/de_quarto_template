@@ -12,8 +12,7 @@ book:
   author: 
     - Jane Doe
     - Who Else
-  
-  favicon: images/favicon.ico
+  site-url: https://stefanthoma.github.io/de_quarto_template/
   date: today
   date-format: short
   chapters:
@@ -26,7 +25,8 @@ book:
         - chapters/summary.qmd
     - chapters/references.qmd
   downloads: pdf
-  image: "images/frontimage.png"  
+  favicon: images/favicon.ico
+  image: images/frontimage.png  
 
 
 bibliography: ["bib/packages.bib", "bib/project.bib"]

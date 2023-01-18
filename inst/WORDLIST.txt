@@ -16,3 +16,9 @@ library
 plot
 rnorm
 true
+.packages
+bib
+bookdown
+knitr
+packages.bib
+write
