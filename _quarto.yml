@@ -37,5 +37,5 @@ format:
     css: styles.css
   pdf:
     documentclass: scrreprt
-  include-in-header: preamble.tex
+    include-in-header: preamble.tex
 editor: source
