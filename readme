@@ -18,7 +18,13 @@ Wir haben mehrere Ordner. Hier eine kurze Darstellung, was wo zu finden ist:
   
 # Anleitung
 
-Verändere erst das _quarto.yml file, so dass die Projektdaten -- Autor, Titel -- stimmen.
+
+Erstelle zuerst zwei branches auf GitHub: 
+`develop` und `gh-pages`
+Arbeite auf dem branch `develop` und erstelle einen pull-request auf `main`. 
+Danach kannst Du auf `develop` pushen und bekommst ständiges feedback zu den CICD checks.
+
+Verändere dann das _quarto.yml file, so dass die Projektdaten -- Autor, Titel -- stimmen.
 Erstelle ein neues Favicon, [zum Beispiel online](https://favicon.io/favicon-generator/). 
 Schreib neue Kapitel im `chapters` Ordner und füge sie entsprechend im _quarto.yml ein. 
 Beachte dabei: Weil wir im _quarto.yml `execute-dir: project` spezifiziert haben, ist der current working directory auf der Projektebene. 
