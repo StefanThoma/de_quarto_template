@@ -59,4 +59,4 @@ In dem Ordner R befindet sich ein R-Script `CICD.R`.
 Damit können wir den Stylecheck durchführen, bevor wir mit main mergen.
 
 ## Publish
-Bei einem angenommenen merge-request wird das Buch automatisch auf den github branch `gh-pages` neu gerendert. Dafür müssen wir aber das Buch einmal lokal rendern mit der Einstellung freeze: true im _quarto.yml
+Bei einem angenommenen merge-request wird das Buch automatisch auf den github branch `gh-pages` neu gerendert. Dafür müssen wir aber das Buch einmal lokal rendern.
